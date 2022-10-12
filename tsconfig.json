@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "AMD",
+        "esModuleInterop": true,
+        "sourceMap": false,
+        "strict": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "noImplicitAny": false
+    },
+    "include": ["src/**/*.ts"],
+}
