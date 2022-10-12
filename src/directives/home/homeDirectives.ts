@@ -1,5 +1,4 @@
-// DIRECTIVES
-weatherApp.directive("home", function () {
+angular.module("weatherApp").directive("home", function () {
   return {
     restrict: "E",
     templateUrl: "../src/directives/home/home.html",

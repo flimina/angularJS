@@ -1,14 +1,20 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "module": "AMD",
+        "baseUrl": "",
+        "declaration": false,
+        "emitDecoratorMetadata": true,
         "esModuleInterop": true,
-        "sourceMap": false,
-        "strict": true,
-        "rootDir": "src",
-        "outDir": "dist",
+        "experimentalDecorators": true,
+        "lib": ["es6", "dom"],
+        "mapRoot": "./",
+        "module": "es6",
         "moduleResolution": "node",
-        "noImplicitAny": false
-    },
+        "outDir": "../dist/out-tsc",
+        "sourceMap": true,
+        "target": "es5",
+        "typeRoots": [
+          "../node_modules/@types"
+        ]
+      },
     "include": ["src/**/*.ts"],
 }

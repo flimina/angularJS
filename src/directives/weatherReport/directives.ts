@@ -1,4 +1,4 @@
-weatherApp.directive("weatherReport", function () {
+angular.module("weatherApp").directive("weatherReport", function () {
   return {
     restrict: "E",
     templateUrl: "../src/directives/weatherReport/weatherReport.html",

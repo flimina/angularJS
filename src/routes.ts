@@ -1,11 +1,12 @@
-weatherApp.config(function ($routeProvider: any) {
-  $routeProvider
+angular.module("weatherApp")
+  .config(function ($routeProvider: any) {
+    $routeProvider
 
-    .when("/", {
-      template: '<home city="city"></home>',
-    })
+      .when("/", {
+        template: '<home city="city"></home>',
+      })
 
-    .when("/forecast", {
-      template: "<forecast></forecast>",
-    });
+      .when("/forecast", {
+        template: "<forecast></forecast>",
+      });
 });
