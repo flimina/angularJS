@@ -9,7 +9,7 @@ angular.module("weatherApp").directive("forecast", function () {
       "$routeParams",
       "cityService",
       function forecastController($routeParams, cityService) {
-        //@ts-ignore
+        
         let vm = this;
         vm.city = cityService.city;
 

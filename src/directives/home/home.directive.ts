@@ -8,7 +8,7 @@ angular.module("weatherApp").directive("home", function () {
       "$scope",
       "cityService",
       function homeController($scope, cityService) {
-        //@ts-ignore
+        
         let vm = this;
         vm.city = cityService.city;
 

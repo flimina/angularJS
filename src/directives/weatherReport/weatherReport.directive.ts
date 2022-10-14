@@ -9,7 +9,7 @@ angular.module("weatherApp").directive("weatherReport", function () {
     controller: [
       "$scope",
       function weatherReportController($scope) {
-        //@ts-ignore
+        
         let vm = this;
         vm.weatherDay = $scope.weatherDay;
       },
