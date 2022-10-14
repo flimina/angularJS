@@ -1,3 +1,3 @@
-import "./forecast/directives";
-import "./home/homeDirectives";
-import "./weatherReport/directives";
+import "./forecast/forecast.directive";
+import "./home/home.directive";
+import "./weatherReport/weatherReport.directive";
